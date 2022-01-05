@@ -2,3 +2,68 @@ body {
     /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Poppins', sans-serif;
 }
+
+img {
+    max-width: 100%;
+}
+
+.top {
+    padding: 50px 0;
+}
+
+.page__middle {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.section__item {
+    width: 50%;
+}
+
+.top__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 50px;
+    border-left: 3px solid blue;
+    line-height: 55px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.top__title span {
+    color: blue;
+}
+
+.top__para {
+    margin: 0 0 20px 0;
+}
+
+.top__para__1 {
+    margin-top: 30px;
+}
+
+.para {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+}
+
+.site__button {
+    background-color:  #FF6600;
+    text-transform: capitalize;
+    font-size: 13px;
+    color: #fff;
+    padding: 8px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+}
+.person__image {
+    text-align: right;
+}
+
+.person {
+    width: 70%;
+}
