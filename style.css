@@ -7,6 +7,10 @@ img {
     max-width: 100%;
 }
 
+.center {
+    text-align: center;
+}
+
 .top {
     padding: 50px 0;
 }
@@ -31,6 +35,7 @@ img {
     line-height: 55px;
     box-sizing: border-box;
     padding-left: 10px;
+    color: #FF6600;
 }
 
 .top__title span {
@@ -48,6 +53,7 @@ img {
 .para {
     font-family: 'Open Sans', sans-serif;
     line-height: 25px;
+    font-size: 14px;
 }
 
 .site__button {
@@ -67,3 +73,43 @@ img {
 .person {
     width: 70%;
 }
+
+/* mission */
+.my__mission {
+    padding: 50px 0;
+}
+.mission__title {
+    text-transform: capitalize;
+    color: blue;
+    font-size: 40px;
+}
+.mission__title span {
+    color: #FF6600;
+}
+.mission__item {
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 35px;
+    border-radius: 15px;
+}
+
+.vission {
+    background-color: rgb(194, 248, 250);
+}
+.mission {
+    background-color: rgb(200, 250, 194);
+}
+.moto {
+    background-color: rgb(250, 246, 194);
+}
+
+
+.icon {
+    width: 100px;
+}
+.item__title {
+    text-transform: capitalize;
+    color: blue;
+    font-weight: 600;
+}
+.mission__para {}
