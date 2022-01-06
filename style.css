@@ -97,10 +97,10 @@ img {
     background-color: rgb(194, 248, 250);
 }
 .mission {
-    background-color: rgb(200, 250, 194);
+    background-color: rgb(250, 246, 194);
 }
 .moto {
-    background-color: rgb(250, 246, 194);
+    background-color: rgb(200, 250, 194);
 }
 
 
@@ -113,3 +113,31 @@ img {
     font-weight: 600;
 }
 .mission__para {}
+.about__me {
+    padding: 50px 0;
+}
+.about__me__text__item {
+    padding-left: 6%;
+    width: 70%;
+}
+.about__me__image__item, .client__image__item {
+    width: 35%;
+}
+.about__me__title, .client__thought__title {
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.about_para {
+    margin-bottom: 20px;
+}
+.client__image__item {
+    text-align: right;
+}
+
+.client__thought__text {
+    width: 70%;
+    padding-right: 8%;
+}
+.client__thought {
+    padding: 50px 0;
+}
