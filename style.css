@@ -127,6 +127,10 @@ img {
 /* .mission__para {} */
 .about__me {
     padding: 50px 0;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: left;
 }
 .about__me__text__item {
     padding-left: 6%;
@@ -151,16 +155,33 @@ img {
     padding-right: 8%;
 }
 .client__thought {
-    padding: 50px 0;
+    padding: 60px 0;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: bottom right;
+
 }
 
 .get__in__touch {
     padding: 50px 0;
     background-color: rgb(211, 211, 211);
+    margin-top: 30px;
+}
+.get__in__touch__icon {
+    text-align: center;
+}
+.get__in__touch__icon img {
+    width: 200px;
 }
 .get_in__touch__title {
     color: #FF6600;
+    font-size: 40px;
 }
+.get_in__touch__title span {
+    color: #000;
+}
+
 form {
     width: 60%;
     margin: 0 auto;
@@ -186,6 +207,12 @@ input[type="submit"] {
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+::placeholder {
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #FF6600;
 }
 
 footer {
