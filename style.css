@@ -124,7 +124,7 @@ img {
     color: blue;
     font-weight: 600;
 }
-.mission__para {}
+/* .mission__para {} */
 .about__me {
     padding: 50px 0;
 }
@@ -162,7 +162,7 @@ img {
     color: #FF6600;
 }
 form {
-    width: 800px;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -185,7 +185,7 @@ input[type="submit"] {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-
+    cursor: pointer;
 }
 
 footer {
