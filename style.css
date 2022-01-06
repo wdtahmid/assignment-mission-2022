@@ -1,6 +1,7 @@
 body {
     /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 img {
@@ -140,4 +141,17 @@ img {
 }
 .client__thought {
     padding: 50px 0;
+}
+footer {
+    background-color: #000;
+    padding: 25px 0;
+}
+.footer__title {
+    text-transform: capitalize;
+}
+.footer__title span {
+    color: #FF6600;
+}
+.footer__title, .footer__para {
+    color: #fff;
 }
